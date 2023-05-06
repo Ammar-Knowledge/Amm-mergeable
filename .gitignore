@@ -53,7 +53,6 @@ coverage
 /node_modules
 /dist
 /tmp
-.env
 /coverage
 /coverage_*
 /artifacts
