@@ -2,7 +2,7 @@
   <br>
   <img src="mergeable-flex.png" alt="Mergeable" width="197">
   <br>
-  <p>Mergeable</p>
+  <p>Amm-mergeable</p>
 </h1>
 
 <p align="center">
