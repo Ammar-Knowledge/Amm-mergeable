@@ -7,6 +7,47 @@ mergeable:
         must_include:
           regex: ^(feat|docs|chore|fix|refactor|test|style|perf)(\(\w+\))?:.+$
           message: Semantic release conventions must be followed.
+    pass:
+      - do: comment
+        payload:
+          body: >
+           <h2>Successfully checked</h2>
+           <h3>All commits in your PR have IDs. Ready for Review!</h3>
+    fail:
+      - do: comment
+        payload:
+          body: >
+            :warning:
+            <h2>Why? you dumb ass bitch</h2>
+  - when: pull_request.*, pull_request_review.*
+    validate:
+      - do: commit
+        message:
+          regex: '^(feat|docs|chore|fix|refactor|test|style|perf)(\(\w+\))?:.+$'
+          message: 'Custom message' # Semantic release conventions must be followed
+          skip_merge: true # Optional, Default is true. Will skip commit with message that includes 'Merge'
+          oldest_only: false # Optional, Default is false. Only check the regex against the oldest commit
+          newest_only: false # Optional, Default is false. Only check the regex against the newest commit
+          single_commit_only: false # Optional, Default is false. only process this validator if there is one  commit
+          message_type: '' # Optional, only check regex against the field specified. Default is '', which processes the 'message' field. Caalso be set to 'author_email' or 'committer_email'
+        jira:
+          regex: '[A-Z][A-Z0-9]+-\d+'
+          regex_flag: none
+          message: 'The Jira ticket does not exist'
+    pass:
+      - do: comment
+        payload:
+          body: >
+           <h2>Successfully checked</h2>
+           <h3>All commits in your PR have IDs. Ready for Review!</h3>
+    fail:
+      - do: comment
+        payload:
+          body: >
+            :warning:
+            <h2>Why? you dumb ass bitch PTCL</h2>
+  - when: pull_request.*, pull_request_review.*
+    validate:
         # All todo check boxes must be checked.
       - do: description
         must_exclude:
@@ -38,7 +79,7 @@ mergeable:
               message: 'new features or fixes needed to be logged to the changelog'
     pass:
       - do: merge
-        merge_method: 'squash'
+        merge_method: 'merge'
       - do: checks
         status: 'success'
 
