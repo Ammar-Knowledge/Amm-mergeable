@@ -1,9 +1,8 @@
 <h1 align="center">
-  <img src="https://spacemine.in/assets/img/custom_img/ai_bot.gif" alt="Amm-mergeable" width="650" height="480">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/85288256/239511199-329394bc-099d-4f70-8506-7a5492eea248.gif" alt="Amm-mergeable" width="450" height="350">
   <br>
   <p>Amm-mergeable</p>
-</h1>
-
+  </h1>
 <p align="center">
   <a href="https://github.com/apps/amm-mergeable">
   </a>
@@ -24,25 +23,7 @@ Some examples of what you can do:
 # Documentation
 Check it out over at https://mergeable.readthedocs.io/en/latest/index.html
 
-# Support
-Found a bug? Have a question? Or just want to chat?
-
-- Find us on [Gitter](https://gitter.im/mergeable-bot/Lobby).
-- Create an [Issue](https://github.com/mergeability/mergeable/issues/new).
-
-# Contributions
-We need your help:
-
-- Have an **💡idea** for a **new feature**? Please [create a new issue](https://github.com/mergeability/mergeable/issues) and tell us!
-- **Fix a bug**, implement a new **validator** or **action** and [open a pull request](CONTRIBUTING.md)!
-
-> ☝️ **NOTE:** For development and testing. You'll want to [read about how to run it locally](deploy.md#running-locally).
-
-
 # Authors
-  - Originally created by [@jusx](https://twitter.com/jusx) 👉 follow him on [Twitter](https://twitter.com/jusx).
-  - Co-authored by [@shine2lay](https://github.com/shine2lay)
-  - Logo by [@minap0lis](https://www.instagram.com/minap0lis/)  👉  follow her on [Instagram](https://www.instagram.com/minap0lis/).
   - New Checks ✅✅ by [@ammar-admed-butt](https://www.linkedin.com/in/ammar-ahmed-butt).
 ---
 
