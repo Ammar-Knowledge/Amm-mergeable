@@ -9,14 +9,16 @@ mergeable:
       - do: comment
         payload:
           body: >
-           <h2>Successfully checked</h2>
-           <h3>Your PR title is correct - following the template :) fuck you JIRA-IDs. Ready for Review!</h3>
+           <h2>Successfully checked PR Title</h2>
+           <h3>Your PR title is correct - following the template JIRA-IDs, Ready for Review!</h3>
     fail:
       - do: comment
         payload:
           body: >
             :warning:
-            <h2>Why? you dumb ass bitch</h2>
+            <h2>Please add Jira ticket id i.e. "JIRA-ID"</h2>
+            <h3>Check Fail!!!!</h3>
+            
   - when: pull_request.*, pull_request_review.*
     validate:
       - do: commit
