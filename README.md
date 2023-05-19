@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="drib_blink_bot.gif" alt="Mergeable" width="500", height="350">
+  <img src="https://spacemine.in/assets/img/custom_img/ai_bot.gif" alt="Amm-mergeable" width="650" height="480">
   <br>
   <p>Amm-mergeable</p>
 </h1>
