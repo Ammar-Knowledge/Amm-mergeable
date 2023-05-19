@@ -1,7 +1,12 @@
 CHANGELOG
 =====================================
+| May 12, 2023: fix: Loading teams for team option of author filter/validator `#713 <https://github.com/mergeability/mergeable/pull/713>`_
+| May 11, 2023: fix: Send correct payload for changing labels `#715 <https://github.com/mergeability/mergeable/pull/715>`_
+| April 25, 2023: feat: Add author validator `#710 <https://github.com/mergeability/mergeable/pull/710>`_
+| March 13, 2023: fix: Replace delete with remove in changeset validator `#705 <https://github.com/mergeability/mergeable/pull/705>`_
+| March 7, 2023: fix: Extend checks supported events `#700 <https://github.com/mergeability/mergeable/pull/700>`_
 | March 1, 2023: feat:Added user information for commit validator `#682 <https://github.com/mergeability/mergeable/pull/682>`_
-| February 03, 2023: feat: Add team option to author filter `#696 <https://github.com/mergeability/mergeable/pull/696>`_
+| February 3, 2023: feat: Add team option to author filter `#696 <https://github.com/mergeability/mergeable/pull/696>`_
 | February 3, 2023: chore: Update node version for release workflow `#699 <https://github.com/mergeability/mergeable/pull/699>`_
 | February 3, 2023: feat: Add Not operator `#695 <https://github.com/mergeability/mergeable/pull/695>`_
 | September 28, 2022: feat: Add last comment validator `#668 <https://github.com/mergeability/mergeable/pull/668>`_
