@@ -6,19 +6,11 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/apps/mergeable">
-    <img src="https://img.shields.io/badge/FREE-INSTALL-orange.svg" alt="Free Install">
-  </a>
-  <a href="https://gitter.im/mergeable-bot/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
-    <img src="https://badges.gitter.im/mergeable-bot/Lobby.svg">
-  </a>  
-  <img src="https://github.com/mergeability/mergeable/workflows/CI/badge.svg">
-  <a href="https://codecov.io/gh/mergeability/mergeable">
-    <img src="https://codecov.io/gh/mergeability/mergeable/branch/master/graph/badge.svg">
+  <a href="https://github.com/apps/amm-mergeable">
   </a>
 </p>
 
-> 🤖 **Mergeable** helps automate your team's GitHub workflow without a single line of code.
+> **Amm-Mergeable** helps automate your team's GitHub workflow without a single line of code.
 
 Some examples of what you can do:
 
