@@ -3,30 +3,23 @@
   <br>
   <p>Amm-mergeable</p>
   </h1>
-<p align="center">
-  <a href="https://github.com/apps/amm-mergeable">
-  </a>
+<p align="left">
+  <a href="https://github.com/apps/amm-mergeable"> </a>
 </p>
 
-> **Amm-Mergeable** helps automate your team's GitHub workflow without a single line of code.
-
-Some examples of what you can do:
-
+**Amm-Mergeable** helps automate your team's GitHub workflow without a single line of code.
+- Some examples of what you can do:
 - Ensure pull requests follow conventions and [prevent merging][comment-if-guidelines-not-met] when it is not followed.
 - [Notify author of failed guidelines][comment] when opening an issue.
 - Schedule [detection for obsolete (stale) issues and pull requests][staleness] and notify author and collaborators.
 - And [more][configuration]
-
 ---
+### Documentation
+- Check it out over at https://mergeable.readthedocs.io/en/latest/index.html
 
-
-# Documentation
-Check it out over at https://mergeable.readthedocs.io/en/latest/index.html
-
-# Authors
-  - New Checks ✅✅ by [@ammar-admed-butt](https://www.linkedin.com/in/ammar-ahmed-butt).
+### Authors
+- New Checks ✅✅ by [@ammar-admed-butt](https://www.linkedin.com/in/ammar-ahmed-butt).
 ---
-
 [comment-if-guidelines-not-met]: https://mergeable.readthedocs.io/en/latest/recipes.html#comment-if-guidelines-not-met
 [comment]: https://mergeable.readthedocs.io/en/latest/actions/comment.html
 [staleness]: https://mergeable.readthedocs.io/en/latest/recipes.html#check-stale-pr-and-issues
