@@ -1,0 +1,23 @@
+name: Amm-mergeable
+id: 'ari:cloud:compass:fe16f236-8ecb-4445-8586-5ebd155a2533:component/639c4a85-a7f7-47da-af17-094b43ea6ccc/67c152f4-7272-463c-8e72-f6ec41796649'
+description: "\U0001F480\U0001F480 All the missing GitHub automation. \U0001F978\U0001F50B\U0001F50C\U0001F97D⚗️\U0001F50F✴️❇️\U0001F537\U0001F383"
+configVersion: 1
+typeId: APPLICATION
+ownerId: 'ari:cloud:teams::team/364becde-3535-499b-8d1e-adf8431d1584'
+fields:
+  tier: 4
+links:
+  - name: Amm Mergable Bot
+    type: REPOSITORY
+    url: 'https://github.com/Ammar-Knowledge/Amm-mergeable'
+  - name: GitHub Flow
+    type: PROJECT
+    url: 'https://ammar-ahmed-butt.atlassian.net/browse/GF'
+relationships: {}
+labels:
+  - 'language:javascript'
+  - 'source:github'
+customFields: null
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
