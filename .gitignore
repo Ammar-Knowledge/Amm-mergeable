@@ -46,14 +46,13 @@ null
 !/geneva-server/src/**/target
 .scannerwork/
 node_modules
+.env
 npm-debug.log
 *.pem
-.env
 coverage
 /node_modules
 /dist
 /tmp
-.env
 /coverage
 /coverage_*
 /artifacts
