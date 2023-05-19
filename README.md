@@ -44,8 +44,8 @@ We need your help:
   - Originally created by [@jusx](https://twitter.com/jusx) 👉 follow him on [Twitter](https://twitter.com/jusx).
   - Co-authored by [@shine2lay](https://github.com/shine2lay)
   - Logo by [@minap0lis](https://www.instagram.com/minap0lis/)  👉  follow her on [Instagram](https://www.instagram.com/minap0lis/).
+  - New Checks ✅✅ by [@ammar-admed-butt](https://www.linkedin.com/in/ammar-ahmed-butt).
 ---
-AGPL, Copyright (c) 2019 [Justin Law](https://github.com/jusx) & [Shine Lee](https://github.com/shine2lay)
 
 [comment-if-guidelines-not-met]: https://mergeable.readthedocs.io/en/latest/recipes.html#comment-if-guidelines-not-met
 [comment]: https://mergeable.readthedocs.io/en/latest/actions/comment.html
