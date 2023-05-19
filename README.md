@@ -1,6 +1,5 @@
 <h1 align="center">
-  <br>
-  <img src="mergeable-flex.png" alt="Mergeable" width="197">
+  <img src="drib_blink_bot.gif" alt="Mergeable" width="500", height="350">
   <br>
   <p>Amm-mergeable</p>
 </h1>
