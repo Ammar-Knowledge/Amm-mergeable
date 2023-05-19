@@ -3,16 +3,14 @@ mergeable:
   - when: pull_request.*, pull_request_review.*
     validate:
       - do: title
-        # Enforce semantic release convention.
         must_include:
-          regex: ^(feat|docs|chore|fix|refactor|test|style|perf)(\(\w+\))?:.+$
-          message: Semantic release conventions must be followed.
+          regex: (^[A-z]+(-| )[0-9]+(:|-| )(\w|\W)+$)
     pass:
       - do: comment
         payload:
           body: >
            <h2>Successfully checked</h2>
-           <h3>All commits in your PR have IDs. Ready for Review!</h3>
+           <h3>Your PR title is correct - following the template  JIRA-IDs. Ready for Review!</h3>
     fail:
       - do: comment
         payload:
@@ -24,12 +22,7 @@ mergeable:
       - do: commit
         message:
           regex: '^(feat|docs|chore|fix|refactor|test|style|perf)(\(\w+\))?:.+$'
-          message: 'Custom message' # Semantic release conventions must be followed
-          skip_merge: true # Optional, Default is true. Will skip commit with message that includes 'Merge'
-          oldest_only: false # Optional, Default is false. Only check the regex against the oldest commit
-          newest_only: false # Optional, Default is false. Only check the regex against the newest commit
-          single_commit_only: false # Optional, Default is false. only process this validator if there is one  commit
-          message_type: '' # Optional, only check regex against the field specified. Default is '', which processes the 'message' field. Caalso be set to 'author_email' or 'committer_email'
+          message: 'summarize the fix in less than 72 characters'
         jira:
           regex: '[A-Z][A-Z0-9]+-\d+'
           regex_flag: none
@@ -39,7 +32,7 @@ mergeable:
         payload:
           body: >
            <h2>Successfully checked</h2>
-           <h3>All commits in your PR have IDs. Ready for Review!</h3>
+           <h3>Commit is yum pum shollay shollay!! /h3>
     fail:
       - do: comment
         payload:
@@ -83,3 +76,5 @@ mergeable:
       - do: checks
         status: 'success'
 
+
+   
