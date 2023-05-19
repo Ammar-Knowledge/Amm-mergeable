@@ -10,7 +10,7 @@ mergeable:
         payload:
           body: >
            <h2>Successfully checked</h2>
-           <h3>Your PR title is correct - following the template  JIRA-IDs. Ready for Review!</h3>
+           <h3>Your PR title is correct - following the template :) fuck you JIRA-IDs. Ready for Review!</h3>
     fail:
       - do: comment
         payload:
