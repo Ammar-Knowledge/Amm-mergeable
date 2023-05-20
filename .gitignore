@@ -48,12 +48,10 @@ null
 node_modules
 npm-debug.log
 *.pem
-.env
 coverage
 /node_modules
 /dist
 /tmp
-.env
 /coverage
 /coverage_*
 /artifacts
