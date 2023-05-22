@@ -2,7 +2,7 @@
   <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/85288256/239511199-329394bc-099d-4f70-8506-7a5492eea248.gif" alt="Amm-mergeable" width="350" height="250">
   <br>
   <p>Amm-mergeable</p>
-  </h1>
+  </h2>
 <p align="left">
   <a href="https://github.com/apps/amm-mergeable"> </a>
 </p>
