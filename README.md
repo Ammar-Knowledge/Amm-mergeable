@@ -18,6 +18,7 @@
 - Check it out over at https://mergeable.readthedocs.io/en/latest/index.html
 
 ### Authors
+
 - New Checks ✅✅ by [@ammar-admed-butt](https://www.linkedin.com/in/ammar-ahmed-butt).
 ---
 
